@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main ( ) {
+double loan, employee;
+int salary ;
+cout<<"enter the salary of employee"<<endl;
+cin>>salary;
+if (salary<=50000) {
+cout<<"given loan is 1 lac";
+}
+else if (salary>50000) {
+cout<<"given loan is 2 lac";
+}
+else {
+cout<<"loan is not given"<<endl;
+}
+return 0; 
+}
+
